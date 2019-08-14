@@ -2,11 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'lib-lib-with-assets',
-  template: `
-    <p>
-      lib-with-assets works!
-    </p>
-  `,
+  templateUrl: 'lib-with-assets.component.html',
   styles: []
 })
 export class LibWithAssetsComponent implements OnInit {

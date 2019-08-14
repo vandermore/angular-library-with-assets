@@ -5,6 +5,11 @@
   "projects": {
     "lib-with-assets": {
       "projectType": "library",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "projects/lib-with-assets",
       "sourceRoot": "projects/lib-with-assets/src",
       "prefix": "lib",
