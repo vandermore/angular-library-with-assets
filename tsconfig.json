@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "lib-with-assets": [
+        "dist/lib-with-assets"
+      ],
+      "lib-with-assets/*": [
+        "dist/lib-with-assets/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
