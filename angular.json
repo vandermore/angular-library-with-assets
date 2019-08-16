@@ -70,6 +70,11 @@
             "styles": [
               "projects/sandbox-for-assets/src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "dist/lib-with-assets/assets/styles"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
